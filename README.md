@@ -1,3 +1,1 @@
 # shell
-
-#Password: TEAM@EX
