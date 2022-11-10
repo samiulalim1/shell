@@ -7,8 +7,10 @@ PHP Shell is a shell wrapped in a PHP script. It's a tool you can use to execute
 
 
 ## Download 
-<a href="https://raw.githubusercontent.com/samiulalim1/shell/main/shell.zip">DOWNLOAD NOW</a>
+<a href="https://raw.githubusercontent.com/samiulalim1/shell/main/shell.zip">DOWNLOAD NOW</a><br>
 <b>Note: Unzip the file after download then upload to server.</b>
+
+## Features
 
 
 
