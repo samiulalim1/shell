@@ -25,7 +25,7 @@ PHP Shell is a shell wrapped in a PHP script. It's a tool you can use to execute
 - Rename File 🗃️
 - Rename Folder 📁
 - Quick Open 👐
-- ECE Code Editor 📝
+- ACE Code Editor 📝
 - Audio Viewer 🔊
 - Video Viewer 🎞️
 - Image Viewer 🖼️
