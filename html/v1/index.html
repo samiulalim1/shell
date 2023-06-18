@@ -14,7 +14,7 @@
 </head>
 <body>
   <div id="body"></div><div id="loader"></div><div id="blur"></div><div id="viewFile"></div><div id="viewFileCode"></div>
-  <form method="POST" action="#" style="display: none;"><input type="text" name="data" value="Download"><input type="text" name="filePath" id="filePath" value=""><input type="submit" name="submit" id="downloadFile" value="Download"></form>
+  <form method="POST" action="#" target="_blank" style="display: none;"><input type="text" name="data" value="Download"><input type="text" name="filePath" id="filePath" value=""><input type="submit" name="submit" id="downloadFile" value="Download"></form>
   <div class="box" id="rename"><h1 class="title">Rename</h1><div class="input" id="newName"><div class="icon"><i class="fa-light fa-pen-to-square"></i></div><input type="text" id="input" placeholder=" "><label for="input" id="label">New Name</label><span></span></div><input type="hidden" id="renameDir" value=""><input type="hidden" id="oldName" value=""><div class="flex"><div class="button" id="renameCancel"><h1>Cancel</h1></div><div class="button" id="renameNow"><h1>Rename</h1></div></div></div>
   <div class="box" id="newFile"><h1 class="title">New File</h1><div class="input" id="newFileName"><div class="icon"><i class="fa-light fa-file-plus"></i></div><input type="text" id="input" placeholder=" "><label for="input" id="label">File Name</label><span></span></div><div class="flex"><div class="button" id="newFileCancel"><h1>Cancel</h1></div><div class="button" id="newFileCreate"><h1>Create</h1></div></div></div>
   <div class="box" id="newFolder"><h1 class="title">New Folder</h1><div class="input" id="newFolderName"><div class="icon"><i class="fa-light fa-folder-plus"></i></div><input type="text" id="input" placeholder=" "><label for="input" id="label">Folder Name</label><span></span></div><div class="flex"><div class="button" id="newFolderCancel"><h1>Cancel</h1></div><div class="button" id="newFolderCreate"><h1>Create</h1></div></div></div>
@@ -25,9 +25,7 @@
   </select></div><span></span></div><div class="flex" id="autoInstallBtn"><div class="button" id="autoInstallCancel"><h1>Cancel</h1></div><div class="button" id="autoInstallNow"><h1>Install</h1></div></div></div>
   <div class="box" id="shellUninstall"><h1 class="title">File Manager<br>Version: 1.0</h1><div class="button" id="startUninstall"><h1>Uninstall</h1></div><div class="button" id="stopUninstall"><h1>Close</h1></div></div>
   <script src="https://cdn.rawgit.com/ajaxorg/ace-builds/master/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
-  <script>window.onbeforeunload = function(e){
-  console.log(e);
-  return 'Are you sure you want to leave?';}; </script>
+  <script>window.onbeforeunload = function(){return 'Are you sure you want to leave?';};</script>
   <script>|SCRIPT|</script>
 </body>
 </html>
