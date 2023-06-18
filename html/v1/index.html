@@ -25,7 +25,9 @@
   </select></div><span></span></div><div class="flex" id="autoInstallBtn"><div class="button" id="autoInstallCancel"><h1>Cancel</h1></div><div class="button" id="autoInstallNow"><h1>Install</h1></div></div></div>
   <div class="box" id="shellUninstall"><h1 class="title">File Manager<br>Version: 1.0</h1><div class="button" id="startUninstall"><h1>Uninstall</h1></div><div class="button" id="stopUninstall"><h1>Close</h1></div></div>
   <script src="https://cdn.rawgit.com/ajaxorg/ace-builds/master/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
-  <script>window.onbeforeunload = function(){return 'Are you sure you want to leave?';}; $('form').on('submit', function() {window.onbeforeunload = null;});</script>
+  <script>window.onbeforeunload = function(e){
+  console.log(e);
+  return 'Are you sure you want to leave?';}; </script>
   <script>|SCRIPT|</script>
 </body>
 </html>
