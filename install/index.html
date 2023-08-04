@@ -39,12 +39,12 @@ $(document).ready(function(){
 $.fn.setError = function(msg){
 	$(this).addClass('error');
     $("span",this).html(msg);
-}
+};
 
 $.fn.removeError = function(){
 	$(this).removeClass('error');
     $("span",this).html('');
-}
+};
 
 $(document).on("change","#choseVersion", function(){
 	var choseVersion = $("#choseVersion").val();
@@ -53,7 +53,7 @@ $(document).on("change","#choseVersion", function(){
 	}else{
 		$("#choseColour").html('<option value="RkbbYDjumV91RovVAFighg0v8AcYO5E25IjLC4nHmnK8LAgdoaRpYcpujWlKr0RaL205bWg7wcVH8Qb94skMrRdxnf+yfDzZkQCno71n7g==">Default</option>');
 	}
-}
+});
 
 $(document).on("click","#Install", function(){
     var newPassword = $("#newPassword #input").val();
